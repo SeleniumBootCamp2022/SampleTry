@@ -4,8 +4,9 @@ import com.framework.selenium.api.design.Locators;
 import com.framework.testng.api.base.ProjectSpecificMethods;
 
 public class LoginPage extends ProjectSpecificMethods{
-	
+	//adding comment for triparty commit
 	public LoginPage enterUsername(String data) {
+		
 		clearAndType(locateElement(Locators.ID, "username"), data);
 		reportStep(data+" entered successfully","pass");
 		return this;
