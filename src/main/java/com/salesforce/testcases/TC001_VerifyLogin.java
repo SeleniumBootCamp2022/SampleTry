@@ -11,7 +11,7 @@ public class TC001_VerifyLogin extends ProjectSpecificMethods{
 	public void setValues() {
 		testcaseName = "VerifyLogin";
 		testDescription ="Verify Login functionality with positive data";
-		authors="Hari";
+		authors="Rago";
 		category ="Smoke";
 		excelFileName="Login";
 	}
