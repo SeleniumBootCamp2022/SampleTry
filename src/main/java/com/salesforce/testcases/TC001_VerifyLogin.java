@@ -14,6 +14,7 @@ public class TC001_VerifyLogin extends ProjectSpecificMethods{
 		authors="Narendran";
 		category ="Smoke";
 		excelFileName="Login";
+		//rg new comment added for resolving conflict
 	}
 	
 	@Test(dataProvider = "fetchData")
