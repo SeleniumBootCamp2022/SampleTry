@@ -13,9 +13,11 @@ public class LoginPage extends ProjectSpecificMethods{
 	}
 	
 	public LoginPage enterPassword(String data) {
+		// enter Password method
 		clearAndType(locateElement(Locators.ID, "password"), data);
 		reportStep(data+" entered successfully","pass");
 		return this;
+		
 	}
 	
 	public HomePage clickLogin() {
