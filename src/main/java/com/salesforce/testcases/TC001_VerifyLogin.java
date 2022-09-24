@@ -27,7 +27,11 @@ public class TC001_VerifyLogin extends ProjectSpecificMethods{
 		.enterPassword(password)
 		.clickLogin()
 		.verifyHomePage();
+
+		// login testcase ends here
+
 //end of method runLogin, 2nd change in this line
+
 	}
 
 }

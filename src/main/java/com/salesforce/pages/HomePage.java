@@ -9,7 +9,11 @@ public class HomePage extends ProjectSpecificMethods{
 		verifyDisplayed(locateElement(Locators.XPATH, "//span[text()='Home']"));
 		reportStep("Homepage is loaded", "pass");
 		return this;
+
 		// new comment rg comment added
+
+		// method ends here
+
 	}
 	
 	
