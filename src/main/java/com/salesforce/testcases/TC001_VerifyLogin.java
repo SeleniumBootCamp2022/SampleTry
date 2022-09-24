@@ -16,7 +16,7 @@ public class TC001_VerifyLogin extends ProjectSpecificMethods{
 		excelFileName="Login";
 		//rg new comment added for resolving conflict
 	}
-	
+		
 	@Test(dataProvider = "fetchData")
 	public void runLogin(String username, String password) {
 		new LoginPage()
