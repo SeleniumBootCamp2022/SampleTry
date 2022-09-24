@@ -26,5 +26,7 @@ public class LoginPage extends ProjectSpecificMethods{
 		reportStep("Login button clicked successfully", "pass");
 		return new HomePage();
 	}
+	
+	// rg change for soundariya commit 3
 
 }
