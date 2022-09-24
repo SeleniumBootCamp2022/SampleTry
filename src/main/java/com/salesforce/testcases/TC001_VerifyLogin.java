@@ -14,9 +14,9 @@ public class TC001_VerifyLogin extends ProjectSpecificMethods{
 		authors="Narendran";
 		category ="Smoke";
 		excelFileName="Login";
-		// new comment
+		//rg new comment added for resolving conflict
 	}
-	
+		
 	@Test(dataProvider = "fetchData")
 	public void runLogin(String username, String password) {
 		
@@ -27,7 +27,7 @@ public class TC001_VerifyLogin extends ProjectSpecificMethods{
 		.enterPassword(password)
 		.clickLogin()
 		.verifyHomePage();
-
+//end of method runLogin
 	}
 
 }
